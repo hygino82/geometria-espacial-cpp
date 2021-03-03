@@ -1,12 +1,14 @@
 #pragma once
+
 class Poliedro
 {
-private:
+protected:
 	int TipoBase;
 	double Altura;
 	double Aresta;
 public:
 	Poliedro(int tipoBase, double altura, double aresta);
+	
 
 	int getTipoBase();
 	void setTipoBase(int tipoBase);

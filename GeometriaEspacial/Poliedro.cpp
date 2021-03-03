@@ -1,10 +1,12 @@
 #include "Poliedro.h"
+#include<math.h>
 
 	Poliedro::Poliedro(int tipoBase, double altura, double aresta) {
 		TipoBase = tipoBase;
 		Altura = altura;
 		Aresta = aresta;
 	}
+	
 	int Poliedro::getTipoBase() {
 		return TipoBase;
 	}

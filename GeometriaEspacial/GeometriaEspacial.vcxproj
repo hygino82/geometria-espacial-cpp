@@ -139,11 +139,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AbstractMedidas.cpp" />
     <ClCompile Include="GeometriaEspacial.cpp" />
     <ClCompile Include="Poliedro.cpp" />
+    <ClCompile Include="Prisma.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AbstractMedidas.h" />
     <ClInclude Include="Poliedro.h" />
+    <ClInclude Include="Prisma.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
