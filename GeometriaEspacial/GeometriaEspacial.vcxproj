@@ -141,11 +141,13 @@
   <ItemGroup>
     <ClCompile Include="AbstractMedidas.cpp" />
     <ClCompile Include="GeometriaEspacial.cpp" />
+    <ClCompile Include="Piramide.cpp" />
     <ClCompile Include="Poliedro.cpp" />
     <ClCompile Include="Prisma.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AbstractMedidas.h" />
+    <ClInclude Include="Piramide.h" />
     <ClInclude Include="Poliedro.h" />
     <ClInclude Include="Prisma.h" />
   </ItemGroup>

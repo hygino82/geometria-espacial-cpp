@@ -8,6 +8,7 @@ double AbstractMedidas::Area(int tipoBase, double aresta)
 	switch (tipoBase) {
 	case 3:
 		area = pow(aresta, 2) * sqrt(3) / 4.0;
+		break;
 	case 4:
 		area = aresta * aresta;
 		break;
