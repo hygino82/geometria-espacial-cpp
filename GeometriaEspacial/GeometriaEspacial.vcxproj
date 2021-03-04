@@ -144,12 +144,14 @@
     <ClCompile Include="Piramide.cpp" />
     <ClCompile Include="Poliedro.cpp" />
     <ClCompile Include="Prisma.cpp" />
+    <ClCompile Include="Tronco.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AbstractMedidas.h" />
     <ClInclude Include="Piramide.h" />
     <ClInclude Include="Poliedro.h" />
     <ClInclude Include="Prisma.h" />
+    <ClInclude Include="Tronco.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

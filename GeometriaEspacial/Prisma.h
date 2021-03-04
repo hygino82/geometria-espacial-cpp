@@ -8,9 +8,10 @@ public:
 	Prisma(int tipoBase, double altura, double aresta) :Poliedro(tipoBase, altura, aresta) {
 	}
 
-	double AreaBase();
 	double AreaLateral();
 	double AreaTotal();
 	double Volume();
+
+	void ListaDados();
 };
 

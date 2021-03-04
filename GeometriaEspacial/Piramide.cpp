@@ -1,10 +1,9 @@
 #include "Piramide.h"
 #include <math.h>
+#include <iostream>
 
-double Piramide::AreaBase()
-{
-	return Area(TipoBase, Aresta);
-}
+using std::cout;
+using std::endl;
 
 double Piramide::AreaLateral()
 {
@@ -45,4 +44,16 @@ double Piramide::AreaTotal()
 double Piramide::Volume()
 {
 	return AreaBase() * Altura / 3.0;
+}
+
+void Piramide::ListaDados()
+{
+	cout << "Pirâmide\n";
+	cout << "Altura: " << getAltura() << endl;
+	cout << "Aresta maior: " << getAresta() << endl;
+	cout << "Lados da base: " << getTipoBase() << endl;
+	cout << "Área da base maior: " << AreaBase() << endl;
+	cout << "Área lateral: " << AreaLateral() << endl;
+	cout << "Área total: " << AreaTotal() << endl;
+	cout << "Volume: " << Volume() << endl;
 }

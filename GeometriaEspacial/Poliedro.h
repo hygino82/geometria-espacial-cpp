@@ -9,6 +9,9 @@ protected:
 public:
 	Poliedro(int tipoBase, double altura, double aresta);
 	
+	double Area(int tipoBase, double aresta);
+
+	double AreaBase();
 
 	int getTipoBase();
 	void setTipoBase(int tipoBase);
